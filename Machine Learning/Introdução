@@ -1,0 +1,21 @@
+O que é Machine Learning?
+Machine Learning (Aprendizado de Máquina) é ensinar o computador a aprender a partir de dados, sem ser explicitamente programado para cada tarefa.
+Exemplo: em vez de escrever regras para identificar spam, você mostra vários e-mails e diz quais são spam. O modelo aprende as regras sozinho com base nos dados.
+
+**3 Tipos de Aprendizado em ML**
+Supervisionado -> Temos entradas (X) e respostas (y).
+Exemplo: Prever preço de casa, classificar spam.
+
+Não supervisionado -> Só temos entradas (X).
+Exemplo: Agrupar clientes parecidos (clustering).
+
+Aprendizado por reforço	-> Modelo aprende por tentativa e erro.	
+Exemplo: Robôs, jogos, carros autônomos.
+
+Como funciona na prática?
+- Coletar dados
+- Preparar os dados (limpar, transformar)
+- Escolher o algoritmo
+- Treinar o modelo
+- Testar o modelo
+- Usar o modelo para fazer previsões

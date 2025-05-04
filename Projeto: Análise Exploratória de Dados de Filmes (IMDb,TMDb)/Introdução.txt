@@ -1,0 +1,8 @@
+Este projeto tem como objetivo realizar uma Análise Exploratória de Dados (EDA) em um dataset de filmes, 
+com foco em entender padrões, tendências e relações entre variáveis como receita, orçamento, avaliação do público, ano de lançamento e gênero. 
+Utilizando bibliotecas como Pandas, Seaborn e Matplotlib, explorando: As 10 maiores bilheterias do dataset, a relação entre orçamento e receita, o número de lançamentos por ano, as avaliações médias por gênero 
+e a correlação entre variáveis numéricas.
+
+IMPORTANTE: Altere o caminho abaixo conforme o local onde você salvou o arquivo movies.csv
+# Exemplo no Windows: "C:/Users/seu_usuario/Downloads/movies.csv"
+df = pd.read_csv("C:/CAMINHO/DO/ARQUIVO/movies.csv")

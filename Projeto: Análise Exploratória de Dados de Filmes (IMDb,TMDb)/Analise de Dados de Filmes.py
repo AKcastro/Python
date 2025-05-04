@@ -8,7 +8,9 @@ sns.set(style="whitegrid")
 plt.rcParams["figure.figsize"] = (12, 6)
 
 # Carregamento do dataset
-df = pd.read_csv(".../movies.csv") #!!!!!!!! Escolha onde salvar e mude o diretório nessa linha
+#ATENÇÃO: Altere o caminho abaixo conforme o local onde você salvou o arquivo movies.csv
+# Exemplo no Windows: "C:/Users/seu_usuario/Downloads/movies.csv"
+df = pd.read_csv("C:/CAMINHO/DO/ARQUIVO/movies.csv")
 
 # Análise inicial
 print("Informações sobre o dataset:")

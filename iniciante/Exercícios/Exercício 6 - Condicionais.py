@@ -7,8 +7,8 @@ Código:
 n = float(input("Digite um número:"))
 
 if n >0:
-    print("Núemro positivo!")
+    print("Número positivo!")
 elif n<0:
     print("Número negativo!")
-elif n ==0:
+else:
     print("Zero!")

@@ -44,7 +44,6 @@ print(f"Produtividade prevista: {produtividade_prevista[0]:.2f}")
 # Gráfico
 plt.scatter(X, y, color='blue', label='Dados reais')
 plt.plot(X, modelo.predict(X), color='red', label='Regressão Linear')
-#plt.scatter(hora, nota_prevista[0], color='orange', s=100, label='Nota prevista')
 plt.axvline(hora, color='green', linestyle='--', label=f'{hora} horas')
 plt.xlabel("Horas dormidas")
 plt.ylabel("Produtividade")
